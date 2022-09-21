@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watches</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="logo">
+        <img src="images/logo.png" alt="" />
+        <h1>Watch<span>es</span></h1>
+        </div>
+        <ul>
+        <li><a href="#">Home</a>
+            <ul class="list">
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+        </li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact us</a></li>
+        </ul>
+    </header>
+    <div class="main">
+        <div class="main-one">
+        <span class="title">New Collection</span>
+        <h1>Luxury Watch</h1>
+        <span class="subtitle">Best Product ever in Season</span>
+        <div class="underline"></div>
+        <p>
+            Lorem ipsum Lorem, ipsum dolor sit amet consectetur adipisicing
+            elit. Numquam, iste? dolor sit amet consectetur adipisicing elit.
+            Optio quam alias odio voluptatum necessitatibus neque dolor quos
+            magnam voluptatibus maxime accusamus sed voluptates deserunt impedit
+            suscipit beatae, id ea asperiores.
+        </p>
+        <button>Shop now</button>
+        <br><br><br><hr>
+        <button class="BY"> <span class="auto"></span></button>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".auto", {
+                strings: ["This WebSite","By KARAM SAFFAN"],
+                typeSpeed: 60,
+                backSpeed: 70,
+                loop: true,
+            });
+        </script>
+        </div>
+        <div class="main-two">
+            <img class="image" src="images/7.png" alt="pic" name="" >
+        </div>
+    </div>
+    <div class="subpics">
+        <img src="images/13.png" alt="pic" onclick="imageupdate('./images/13.png')">
+        <img src="images/12.png" alt="pic" onclick="imageupdate('./images/12.png')">
+        <img src="images/6.png" alt="pic" onclick="imageupdate('./images/6.png')">
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
